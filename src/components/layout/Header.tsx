@@ -29,9 +29,9 @@ interface HeaderProps {
 export default function Header({ logo, nav }: HeaderProps) {
   return (
     <header className="relative z-40 bg-background border-b border-border">
-      <div className="max-w-screen-xl mx-auto px-6 md:px-10">
-        {/* Logo */}
-        <div className="py-6">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-10">
+        {/* Logo + mobile toggle row */}
+        <div className="flex items-center justify-between py-4 sm:py-5 md:py-6">
           <NavLogo
             src={logo.src}
             alt={logo.alt}
@@ -39,10 +39,16 @@ export default function Header({ logo, nav }: HeaderProps) {
             title={logo.title}
             tagline={logo.tagline}
           />
+          {/* Mobile toggle rendered inside NavBar */}
+          <div className="lg:hidden">
+            <NavBar items={nav} mobileOnly />
+          </div>
         </div>
 
-        {/* Navigation */}
-        <NavBar items={nav} />
+        {/* Desktop navigation */}
+        <div className="hidden lg:block">
+          <NavBar items={nav} />
+        </div>
       </div>
     </header>
   );

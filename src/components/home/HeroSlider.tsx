@@ -24,73 +24,133 @@ export default function HeroSlider({
   interval = 6000,
 }: HeroSliderProps) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const touchStartX = useRef(0);
+  const touchDeltaX = useRef(0);
+  const isDragging = useRef(false);
+  const trackRef = useRef<HTMLDivElement>(null);
 
-  const goTo = useCallback((index: number) => {
-    setVisible(false);
-    setTimeout(() => {
-      setActiveIndex(index);
-      setVisible(true);
-    }, 300);
+  const stopTimer = useCallback(() => {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
   }, []);
 
   const startTimer = useCallback(() => {
+    stopTimer();
     if (!autoplay) return;
     timerRef.current = setInterval(() => {
-      setVisible(false);
-      setTimeout(() => {
-        setActiveIndex((prev) => (prev + 1) % slides.length);
-        setVisible(true);
-      }, 300);
+      setActiveIndex((prev) => (prev + 1) % slides.length);
     }, interval);
-  }, [autoplay, interval, slides.length]);
+  }, [autoplay, interval, slides.length, stopTimer]);
 
   useEffect(() => {
     startTimer();
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [startTimer]);
+    return stopTimer;
+  }, [startTimer, stopTimer]);
 
-  const handleGoTo = (index: number) => {
-    if (timerRef.current) clearInterval(timerRef.current);
-    goTo(index);
+  const goTo = (index: number) => {
+    stopTimer();
+    setActiveIndex(index);
     startTimer();
   };
 
-  const current = slides[activeIndex];
+  const goNext = () => {
+    goTo((activeIndex + 1) % slides.length);
+  };
+
+  const goPrev = () => {
+    goTo((activeIndex - 1 + slides.length) % slides.length);
+  };
+
+  // Touch handlers
+  const onTouchStart = (e: React.TouchEvent) => {
+    stopTimer();
+    isDragging.current = true;
+    touchStartX.current = e.touches[0].clientX;
+    touchDeltaX.current = 0;
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (!isDragging.current) return;
+    touchDeltaX.current = e.touches[0].clientX - touchStartX.current;
+
+    // Apply live drag offset via CSS transform
+    if (trackRef.current) {
+      const baseOffset = -activeIndex * 100;
+      const dragPercent = (touchDeltaX.current / window.innerWidth) * 100;
+      trackRef.current.style.transition = "none";
+      trackRef.current.style.transform = `translateX(${baseOffset + dragPercent}%)`;
+    }
+  };
+
+  const onTouchEnd = () => {
+    if (!isDragging.current) return;
+    isDragging.current = false;
+
+    // Restore CSS transition
+    if (trackRef.current) {
+      trackRef.current.style.transition = "";
+    }
+
+    const threshold = 50;
+    if (touchDeltaX.current < -threshold) {
+      goNext();
+    } else if (touchDeltaX.current > threshold) {
+      goPrev();
+    } else {
+      // Snap back
+      startTimer();
+    }
+    touchDeltaX.current = 0;
+  };
 
   return (
     <section className="relative hero-section">
-      {/* Slide */}
-      <div style={{ opacity: visible ? 1 : 0, transition: "opacity 0.3s ease" }}>
-        <SliderSlide
-          layout={current.layout}
-          image={current.image}
-          title={current.title}
-          description={current.description}
-          cta={current.cta}
-        />
+      {/* Slide track */}
+      <div
+        className="overflow-hidden"
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+      >
+        <div
+          ref={trackRef}
+          className="flex transition-transform duration-300 ease-out"
+          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        >
+          {slides.map((slide) => (
+            <div key={slide.id} className="w-full flex-shrink-0">
+              <SliderSlide
+                layout={slide.layout}
+                image={slide.image}
+                title={slide.title}
+                description={slide.description}
+                cta={slide.cta}
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* Paginacja */}
+      {/* Pagination — desktop: dots + counter, mobile: counter only, tight to content */}
       <nav
-        className="absolute bottom-4 right-5 flex items-center gap-2 z-20"
+        className="absolute bottom-1 md:bottom-4 right-3 md:right-5 flex items-center gap-2 z-20"
         aria-label="Slider pagination"
       >
         {slides.map((slide, i) => (
           <button
             key={slide.id}
-            onClick={() => handleGoTo(i)}
+            onClick={() => goTo(i)}
             aria-label={`Slajd ${i + 1}`}
             aria-current={i === activeIndex ? "true" : undefined}
-            className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+            className={`hidden md:block w-1.5 h-1.5 rounded-full transition-all duration-300 ${
               i === activeIndex ? "bg-accent scale-125" : "bg-white/30 hover:bg-white/60"
             }`}
           />
         ))}
-        <span className="ml-2 text-[10px] tracking-widest text-white/40 tabular-nums select-none">
+        <span className="text-[10px] tracking-widest text-white/40 tabular-nums select-none">
           {activeIndex + 1}/{slides.length}
         </span>
       </nav>
