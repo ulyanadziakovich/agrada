@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Agrada — Teatr w Drodze",
+    "description": "Oficjalna strona Teatru Agrada"
+  },
+  "hero": {
+    "type": "slider",
+    "autoplay": true,
+    "interval": 6000,
+    "slides": [
+      {
+        "id": 1,
+        "layout": "image",
+        "image": "/images/01ag.jpg",
+        "title": "",
+        "description": "",
+        "cta": null
+      },
+      {
+        "id": 2,
+        "layout": "content",
+        "image": "/images/02ag.jpg",
+        "title": "bezGRZECH",
+        "description": "To opowieść o samotności kobiety, która w mentalnej podróży za czułością i opiekuńczością męskiej dłoni oraz tęsknoty za zapachem i ciepłem męskiego ciała, zatraciła samą siebie, swoje własne JA, utraciła godność.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/bezgrzech" }
+      },
+      {
+        "id": 3,
+        "layout": "content",
+        "image": "/images/03ag.jpg",
+        "title": "słowoTOK",
+        "description": "Na scenie dwie kobiety, dwie emocje, dwie drogi, dwa spojrzenia. Młodość i starość. Siła i rezygnacja. Walka i mentalna śmierć. Co wygra?",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/slowotok" }
+      },
+      {
+        "id": 4,
+        "layout": "content",
+        "image": "/images/05ag.jpg",
+        "title": "METAMORFOZY",
+        "description": "Monodram jest procesem, przejścia przysłowiowej kury domowej w piękną i zmysłową kobietę. Ukazuje Jej wewnętrzne tęsknoty do świata piękna, spełnienia, prawdziwej miłości i samoakceptacji. Jej ucieczkę w samą siebie, w świat marzeń, pragnień i ciepła.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/metamorfozy" }
+      },
+      {
+        "id": 5,
+        "layout": "content",
+        "image": "/images/06ag.jpg",
+        "title": "ONA",
+        "description": "'ONA' została stworzona z inspiracji \u201eGwiazdy\u201d Helmuta Kajzara. Jednak z takową podstawową wersją ma bardzo, bardzo mało wspólnego. 'ONA' to opowieść o kobiecie, która w dwóch wielokulturowych wcieleniach (polskim i ukraińskim) zamknięta w zakładzie opiekuńczym, powraca wspomnieniami do świetności swej kariery scenicznej, do swych miłości, pragnień i rozczarowań.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/ona" }
+      },
+      {
+        "id": 6,
+        "layout": "content",
+        "image": "/images/07ag.jpg",
+        "title": "SEN MOTYLA",
+        "description": "Spektakl o kobiecie doświadczonej przez różne wydarzenia życiowe, od której życie czasami chciało więcej niż ona mogła dać. W spektaklu, szczególnie przewija się motyw jednego z tych wydarzeń, którego z jakiś powodów, bohaterka do końca nam nie zdradza. Pozostawia to widzowi niedopowiedzenia lub miejsce na jego własne refleksje.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/sen-motyla" }
+      },
+      {
+        "id": 7,
+        "layout": "content",
+        "image": "/images/08ag.jpg",
+        "title": "FIKSUM-DYRDUM",
+        "description": "FIKSUM-DYRDUM to... Monodram w trzech odsłonach ukazujący- wrażliwego, twórczego, ale z charakterem, nie poddającego się modzie, ale też trochę zagubionego- mężczyznę, na różnych etapach jego życia. Nie rozumiejącego świat chamstwa, przemocy, korupcji i wyuzdania.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/fiksum-dyrdum" }
+      },
+      {
+        "id": 8,
+        "layout": "content",
+        "image": "/images/09ag.jpg",
+        "title": "Męskie zwierzenia-Depresja poporodowa",
+        "description": "W zmysłowości zapachów i żywego ognia, w muzycznych i słownych emocjach, toczy się sceniczno-estradowa opowieść o mężczyźnie poszukującym samego siebie, swych korzeni, swej życiowej drogi, ale też jedynej i niepowtarzalnej miłości. Bunt, niezgoda na otaczającą rzeczywistość, kontrowana tańcem i zabawą, to świat naszego bohatera.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/meskie-zwierzenia" }
+      },
+      {
+        "id": 9,
+        "layout": "content",
+        "image": "/images/10ag.jpg",
+        "title": "Kołowrotek",
+        "description": "Skryty, mający naturę nie do końca łatwą do odgadnięcia i przewidywalną. Dbający o swój wygląd, wyjątkowy, ale też skłonny do surowego osądzania innych bez próby postawienia się na miejscu osoby osądzanej. Jest mężczyzną próbującym rozliczyć się z samym sobą, przypiętych metek, bo wie że ma się z czego rozliczać.",
+        "cta": { "label": "więcej", "href": "/spektakle/aktualnie-gramy/kolowrotek" }
+      }
+    ]
+  }
+}

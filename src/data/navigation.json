@@ -1,0 +1,85 @@
+{
+  "nav": [
+    {
+      "id": "news",
+      "label": "NEWS",
+      "slug": "/news",
+      "children": []
+    },
+    {
+      "id": "spektakle",
+      "label": "SPEKTAKLE",
+      "slug": "/spektakle",
+      "sectionTitle": "Repertuar",
+      "children": [
+        { "id": "aktualnie-gramy", "label": "Aktualnie gramy", "slug": "/spektakle/aktualnie-gramy" },
+        { "id": "gralismy", "label": "Graliśmy", "slug": "/spektakle/gralismy" },
+        { "id": "zapowiedzi", "label": "Zapowiedzi", "slug": "/spektakle/zapowiedzi" }
+      ]
+    },
+    {
+      "id": "dzialania",
+      "label": "DZIAŁANIA",
+      "slug": "/dzialania",
+      "sectionTitle": "Akcje",
+      "children": [
+        { "id": "projekty", "label": "Projekty", "slug": "/dzialania/projekty" }
+      ]
+    },
+    {
+      "id": "oferta",
+      "label": "OFERTA WARSZTATOWA",
+      "slug": "/oferta",
+      "sectionTitle": "Program",
+      "children": [
+        { "id": "doswiadczenie", "label": "Doświadczenie", "slug": "/oferta/doswiadczenie" },
+        { "id": "ewaluacje", "label": "Ewaluacje", "slug": "/oferta/ewaluacje" }
+      ]
+    },
+    {
+      "id": "o-teatrze",
+      "label": "O TEATRZE",
+      "slug": "/o-teatrze",
+      "sectionTitle": "Historia Agrady",
+      "children": [
+        { "id": "prasa", "label": "Prasa", "slug": "/o-teatrze/prasa" },
+        { "id": "video", "label": "Video", "slug": "/o-teatrze/video" },
+        { "id": "do-pobrania", "label": "Do pobrania", "slug": "/o-teatrze/do-pobrania" }
+      ]
+    },
+    {
+      "id": "osoby",
+      "label": "OSOBY",
+      "slug": "/osoby",
+      "sectionTitle": "Artyści",
+      "children": [
+        { "id": "przyjaciele", "label": "Przyjaciele", "slug": "/osoby/przyjaciele" }
+      ]
+    },
+    {
+      "id": "sapina",
+      "label": "SAPINA-AGRADA",
+      "slug": "/sapina",
+      "sectionTitle": "Historia",
+      "children": [
+        { "id": "spektakle", "label": "Spektakle", "slug": "/sapina/spektakle" },
+        { "id": "galeria", "label": "Galeria", "slug": "/sapina/galeria" }
+      ]
+    },
+    {
+      "id": "galeria",
+      "label": "GALERIA",
+      "slug": "/galeria",
+      "children": [
+        { "id": "warsztaty", "label": "Warsztaty", "slug": "/galeria/warsztaty" },
+        { "id": "inne", "label": "Inne", "slug": "/galeria/inne" }
+      ]
+    },
+    {
+      "id": "kontakt",
+      "label": "KONTAKT",
+      "slug": "/kontakt",
+      "children": []
+    }
+  ]
+}
