@@ -1,15 +1,33 @@
 {
   "title": "Akcje",
-  "paragraphs": [
-    "AKCJA–JEWSZAN-ZIOłO",
-    "TAŃCE I ŚPIEWANKI OD GRAZKI I MARIANKI",
-    "АКЦІЯ: ЄВШАН-ЗІЛЛЯ",
-    "ТАНЦІ І СПІВАНКИ ВІД ГРАЖКИ І МАРІАНКИ",
-    "Jeszcze kilka godzin temu akcja miała się toczyć w dniach 20-26.07. 2014r. w Zatoce k/Odessy",
-    "nad Morzem Czarnym",
-    "Jeszcze kilka godzin temu treść była całkowicie inna.",
-    "Jeden bardzo ważny telefon z Ukrainy w dniu 12 sierpnia spowodował przewrócenie wszystkiego do góry nogami i niestety ze względów bezpieczeństwa przeniesienie akcji bliżej naszej granicy do Truskawca i Użgorodu (Ukraina Zachodnia) jak też do Polski..",
-    "To z tych miejsc, śpiewając, tańcząc i działając teatralnie, słać będziemy sygnały do świata i naszych przyjaciół na Ukrainie że nie zgadzamy się na agresje, okupacje, zabijanie i wojny.",
-    "Trzymajcie za nas kciuki!Grażyna KaznowskaMarianna Jara"
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "AKCJA – JEWSZAN-ZIOŁO"
+    },
+    {
+      "type": "subheading",
+      "text": "TAŃCE I ŚP IEWANKI OD GRAZKI I MARIANKI"
+    },
+    {
+      "type": "highlight",
+      "text": "АКЦІЯ: ӄВШАН-ЗІЛЛЯ / ТАНЦІ І СПІВАНКИ ВІД ГРАЖКІ І МАРІАНКИ"
+    },
+    {
+      "type": "prose",
+      "text": "Jeszcze kilka godzin temu akcja miała się toczyć w dniach 20–26.07.2014 r. w Zatoce k/Odessy nad Morzem Czarnym."
+    },
+    {
+      "type": "prose",
+      "text": "Jeden bardzo ważny telefon z Ukrainy w dniu 12 sierpnia spowodował przewrócenie wszystkiego do góry nogami i ze względów bezpieczeństwa przeniesienie akcji bliżej naszej granicy — do Truskawca i Użgoro du (Ukraina Zachodnia), jak też do Polski."
+    },
+    {
+      "type": "prose",
+      "text": "To z tych miejsc, śpiewając, tańcząc i działając teatralnie, słać będziemy sygnały do świata i naszych przyjaciół na Ukrainie, że nie zgadzamy się na agresję, okupację, zabijanie i wojny."
+    },
+    {
+      "type": "attribution",
+      "text": "Grażyna Kaznowska, Marianna Jara"
+    }
   ]
 }

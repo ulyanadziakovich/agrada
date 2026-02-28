@@ -1,15 +1,59 @@
 {
   "title": "Aktualności",
-  "paragraphs": [
-    "Wszystkim Widzom, Przyjaciołom, Miłośnikom Teatru- Szczęśliwych Rodzinnych i Wyciszonych ze zgiełku dnia codziennego Świąt Bożego Narodzenia oraz kreatywnego, twórczego   2024 roku życzy Grażyna",
-    "Jakoś tak wieje pustkami na naszej stronie, ale żyjemy, żyjemy, gramy, gramy. Zapraszamy w dniu 26 maja 2023 r. do Sanoka na spektakl ANNA WIKTORIA w składzie: Susanna Jara, Grażyna Kaznowska, Marianna Jara. Szczegóły i miejsce wkrótce.",
-    "KIERUNEK-KOBIETA! To najnowszy projekt twórczy dwóch Agradowiczek: Grażyny Kaznowskiej i Ireny Powroźnik. Dlaczego o tym na stronie teatru?  Bo z życia teatru lub z teatru życia się wywodzi. Tytuł mówi sam za siebie. Jednak autorki na stronie https://www.kierunek-kobieta.pl...",
-    "RADOŚĆ NASZA OGROMNA Teatr w drodze AGRADA wraca do gry WRESZCIE !!! Po długich miesiącach w zamknięciu i bez kochanej sceny WRACAMY! I to z przytupem! We wtorek w Ustrzyckim Domu Kultury nasza cudowna Artystka Susa Jara będzie...",
-    "Czas pandemii nie służył naszym działaniom, zwłaszcza dlatego iż rozsiani jesteśmy po całym kraju. Ostatni spektakl ANNA-WIKTORIA zagraliśmy w Teatrze Lalki w Użhorodzie w listopadzie 2019 roku. Jak nam podziękowała za spektakl  ukraińska publiczność? A no owacjami na...",
-    "Och wiemy wiemy, że jesteśmy straaaasznie „do tyłu” z aktualnymi wpisami, ale to wcale nie oznacza że nie działamy. W tym roku, z inicjatywy, pomysłu i reżyserii Justyny Liszkowskiej stworzyłyśmy- tak, znów same kobiety, spektakl w stylu teatrów...",
-    "2017 rok przeleciał jak strzała. A my milczeliśmy . Czyżby się nic nie działo? Czyżbyśmy zapadli się pod ziemię? Nie nie. To tylko brak czasu i sprężu aby informować  na bieżąco. Wiemy! źle! tak się nie robi! Dlatego postanowiliśmy...",
-    "To nasz nowy projekt artystyczny o którym mam nadzieje że będzie głośno. Od samego początku gdy zaczął powstawać niósł w sobie jakąś dobrą energię. Jest on połączeniem teatru i kreacji osobistej, łączy w sobie  pracę nad ciałem i...",
-    "Wakacje za nami. I wcale nie leniwe. Nasze dziewczyny: Grażyna Kaznowska, Marianna Jara i Susanna Jara zagrały w Odessie spektakl „ANNA-WIKTORIA” a Grupa Teatralna SAPINA-AGRADA grała nasz najnowszy spektakl „RO-TA-ŻY z Mazur” całe, wydłużone wakacje. Brawo dla Was...",
-    "Jak co roku od pięciu lat, początek wakacji spędzamy przez 10 dni na  Mazurach wśród naszych cudownych ludzi z grupy SAPINA-AGRADA. Tym razem, z resztą podobnie jak i rok temu, pojechałyśmy w składzie: Grażyna Kaznowska i Małgorzata Rydlewska,..."
+  "items": [
+    {
+      "date": "Grudzień 2023",
+      "title": "Życzenia świąteczne",
+      "body": "Wszystkim Widzom, Przyjaciołom, Miłośnikom Teatru — szczęśliwych, rodzinnych i wyciszonych ze zgiełku dnia codziennego Świąt Bożego Narodzenia oraz kreatywnego, twórczego 2024 roku życzy Grażyna."
+    },
+    {
+      "date": "Maj 2023",
+      "title": "Zaproszenie: ANNA WIKTORIA w Sanoku",
+      "body": "Jakoś tak wieje pustkami na naszej stronie, ale żyjemy, żyjemy, gramy, gramy. Zapraszamy w dniu 26 maja 2023 r. do Sanoka na spektakl ANNA WIKTORIA w składzie: Susanna Jara, Grażyna Kaznowska, Marianna Jara."
+    },
+    {
+      "date": "2020",
+      "title": "Projekt KIERUNEK-KOBIETA",
+      "body": "KIERUNEK-KOBIETA! To najnowszy projekt twórczy dwóch Agradowiczek: Grażyny Kaznowskiej i Ireny Powroźnik. Wywodzi się z życia teatru lub z teatru życia. Tytuł mówi sam za siebie. Więcej na stronie kierunek-kobieta.pl.",
+      "link": {
+        "label": "www.kierunek-kobieta.pl",
+        "url": "https://www.kierunek-kobieta.pl"
+      }
+    },
+    {
+      "date": "2021",
+      "title": "AGRADA wraca na scenę!",
+      "body": "RADOŚĆ NASZA OGROMNA — Teatr w Drodze AGRADA wraca do gry WRESZCIE! Po długich miesiącach w zamknięciu i bez kochanej sceny WRACAMY! I to z przytupem! W Ustrzyckim Domu Kultury nasza cudowna Artystka Susa Jara znów stanie na scenie."
+    },
+    {
+      "date": "2020",
+      "title": "Pandemia i cisza na scenie",
+      "body": "Czas pandemii nie służył naszym działaniom, zwłaszcza dlatego iż rozsiani jesteśmy po całym kraju. Ostatni spektakl ANNA-WIKTORIA zagraliśmy w Teatrze Lalki w Użhorodzie w listopadzie 2019 roku. Ukraińska publiczność podziękowała nam owacjami na stojąco."
+    },
+    {
+      "date": "2019",
+      "title": "Nowy spektakl — tym razem same kobiety",
+      "body": "Och wiemy, że jesteśmy strasznie »do tyłu« z aktualnymi wpisami, ale to wcale nie oznacza, że nie działamy. W tym roku, z inicjatywy, pomysłu i reżyserii Justyny Liszkowskiej stworzyłyśmy — tak, znów same kobiety — nowy spektakl w stylu teatrów ulicznych."
+    },
+    {
+      "date": "Styczeń 2018",
+      "title": "Podsumowanie 2017 roku",
+      "body": "2017 rok przeleciał jak strzała. A my milczeliśmy. Czyżby się nic nie działo? Czyżbyśmy zapadli się pod ziemię? Nie, nie. To tylko brak czasu i sprężu, aby informować na bieżąco. Wiemy — źle! Tak się nie robi! Dlatego postanowiliśmy się poprawić."
+    },
+    {
+      "date": "2016",
+      "title": "Nowy projekt artystyczny w drodze",
+      "body": "To nasz nowy projekt artystyczny, o którym mam nadzieję, że będzie głośno. Od samego początku, gdy zaczął powstawać, niósł w sobie dobrą energię. Jest połączeniem teatru i kreacji osobistej, łączy pracę nad ciałem i duchem."
+    },
+    {
+      "date": "Sierpień 2016",
+      "title": "Letnie Mazury i Odessa",
+      "body": "Wakacje za nami — i wcale nie leniwe. Grażyna Kaznowska, Marianna Jara i Susanna Jara zagrały w Odessie spektakl ANNA-WIKTORIA, a Grupa Teatralna SAPINA-AGRADA grała najnowszy spektakl RO-TA-ŻY z Mazur przez całe wydłużone wakacje. Brawo!"
+    },
+    {
+      "date": "Lipiec 2015",
+      "title": "Mazurskie warsztaty — tradycja trwa",
+      "body": "Jak co roku, od pięciu lat, początek wakacji spędzamy przez 10 dni na Mazurach wśród naszych cudownych ludzi z grupy SAPINA-AGRADA. Tym razem pojechałyśmy w składzie: Grażyna Kaznowska i Małgorzata Rydlewska."
+    }
   ]
 }

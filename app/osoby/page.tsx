@@ -1,12 +1,12 @@
 import data from "@/src/data/pages/osoby.json";
 import PageHero from "@/src/components/layout/PageHero";
-import ContentPage from "@/src/components/layout/ContentPage";
+import ArtysciSection from "@/src/components/osoby/ArtysciSection";
 
 export default function OsobyPage() {
   return (
     <>
       <PageHero title={data.title} />
-      <ContentPage paragraphs={data.paragraphs} />
+      <ArtysciSection artists={data.artists} />
     </>
   );
 }

@@ -1,12 +1,12 @@
 import data from "@/src/data/pages/oferta/ewaluacje.json";
 import PageHero from "@/src/components/layout/PageHero";
-import ContentPage from "@/src/components/layout/ContentPage";
+import EwaluacjeSection from "@/src/components/oferta/EwaluacjeSection";
 
 export default function OfertaEwaluacjePage() {
   return (
     <>
       <PageHero title={data.title} />
-      <ContentPage paragraphs={data.paragraphs} />
+      <EwaluacjeSection sections={data.sections} />
     </>
   );
 }

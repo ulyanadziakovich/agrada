@@ -1,12 +1,15 @@
 import data from "@/src/data/pages/dzialania.json";
 import PageHero from "@/src/components/layout/PageHero";
-import ContentPage from "@/src/components/layout/ContentPage";
+import AkcjeSection from "@/src/components/dzialania/AkcjeSection";
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const blocks = data.blocks as any;
 
 export default function DzialaniaPage() {
   return (
     <>
       <PageHero title={data.title} />
-      <ContentPage paragraphs={data.paragraphs} />
+      <AkcjeSection blocks={blocks} />
     </>
   );
 }

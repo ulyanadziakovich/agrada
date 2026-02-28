@@ -1,4 +1,36 @@
 {
   "title": "Przyjaciele",
-  "paragraphs": []
+  "friends": [
+    {
+      "name": "DAGNY CIPORA",
+      "description": "Ogromnie kreatywna młoda aktorka Teatru im. Wandy Siemaszkowej w Rzeszowie, wokalistka, instrumentalistka. Inicjatorka wielu działań twórczych.",
+      "website": "www.dagnycipora.com"
+    },
+    {
+      "name": "NOCLEGI WĘDROWIEC",
+      "description": "Najbardziej klimatyczne miejsce noclegowe w Bieszczadach.",
+      "website": "www.noclegiwedrowiec.pl"
+    },
+    {
+      "name": "TEATR PARRA",
+      "description": "Teatr z ponad 23-letnią tradycją. Teatr offowy, alternatywny i eksperymentalny.",
+      "website": "www.parra.com.pl"
+    },
+    {
+      "name": "LIFE ART STUDIO",
+      "description": "Niezmiernie klimatyczny klub, gdzie sport i rekreacja przeplata się ze sztuką i rozrywką."
+    },
+    {
+      "name": "SAPINA-AGRADA",
+      "description": "Stowarzyszenie ludzi, którzy w kreatywnej podróży po różnych dziedzinach sztuki pokochali teatr i jego magię."
+    },
+    {
+      "name": "GALERIA ONAMATO",
+      "description": "Partner krakowskiej edycji projektu OGIEŃ AGRADY."
+    },
+    {
+      "name": "CAFFE CREMA",
+      "description": "Partner giżyckiej edycji projektu OGIEŃ AGRADY."
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 import data from "@/src/data/pages/spektakle/gralismy.json";
 import PageHero from "@/src/components/layout/PageHero";
-import ContentPage from "@/src/components/layout/ContentPage";
+import GralismySection from "@/src/components/spektakle/GralismySection";
 
 export default function SpektakleGralismyPage() {
   return (
     <>
       <PageHero title={data.title} />
-      <ContentPage paragraphs={data.paragraphs} />
+      <GralismySection groups={data.groups} />
     </>
   );
 }

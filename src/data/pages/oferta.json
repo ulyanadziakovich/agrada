@@ -1,20 +1,55 @@
 {
   "title": "Program",
-  "paragraphs": [
-    "KREACJA OSOBISTA TECHNIKAMI TEATRALNYMI I PARATEATRALNYMI",
-    "TAK! JESTEŚMY WYJĄTKOWI W TYM CO ROBIMY!",
-    "Dlaczego? Bo działamy na wielkim sercu i oddaniu się temu co kochamy, czym żyjemy, oddychamy, co potrafimy najlepiej , czyli TEATROWI.",
-    "Bo to my z teatrem przez duże T i jego wartościami idziemy do Was Kochani Warsztatowicze, proponując w jednej edycji 5 godzin pracy, podzielone na dwie części:",
-    "3 godziny– nauki przez doświadczanie i pracę zespołową",
-    "2 godziny– wspólne budowanie etiudy po warsztatowej, pokazu- opartych na dramie, psycho i socjodramie, na Wspólnych przemyśleniach i obserwacjach.",
-    "My- wyjedziemy a Wy możecie nadal bawić się i modyfikować tę etiudę, pokazywać koleżankom i kolegom. TRWAĆ RAZEM w tej niecodziennej przestrzeni!",
-    "Warsztaty oparliśmy na wypracowanej przez dwadzieścia pięć lat-  własnej, aktorskiej, reżyserskiej  i pedagogicznej pracyGrażyny Kaznowskiej (Bieszczady), założycielki autorskich teatrów: TOM-90 Orelec, Teatru Formy PARRA Ustrzyki Dolne, jak tez pomysłodawczyni i współzałożycielki Teatru w Drodze AGRADA, laureatki wielu nagród artystycznych i edukacyjnych jak też artystów współpracujących.",
-    "Warsztaty najczęściej adresowane są do oddzielnych grup docelowych:",
-    "Program  warsztatów, w zależności od grupy docelowej, zawiera między  innymi:",
-    "(Warsztaty dla zakładów karnych prowadzone  są w miarę możliwości w trzy osoby,z Joanną Mach: pedagogiem  ze specjalnością origofrenopedagogika, pedagogiem resocjalizacyjnym, aktorem teatru PARRA. Osobą otwartą na ludzi, komunikatywną, kreatywną i twórczą.)",
-    "Oddzielną naszą propozycją jest  tygodniowy warsztat",
-    "Przeprowadzony w Domu Twórczym  LE-GRAŻ w Bóbrce k/Soliny",
-    "www.legraz.eu",
-    "Kontakt w sprawie warsztatów:agradaart@gmail.comlubgrazkakaznowska@gmail.comTel.608 746 552"
-  ]
+  "tagline": "KREACJA OSOBISTA TECHNIKAMI TEATRALNYMI I PARATEATRALNYMI",
+  "intro": "Działamy na wielkim sercu i oddaniu się temu, co kochamy — TEATROWI. Idziemy do Was, Kochani Warsztatowicze, z propozycją 5 godzin pracy podzielonych na dwie części.",
+  "format": [
+    {
+      "duration": "3 godziny",
+      "description": "nauki przez doświadczanie i pracę zespołową"
+    },
+    {
+      "duration": "2 godziny",
+      "description": "wspólne budowanie etiudy po-warsztatowej opartej na dramie, psycho i socjodramie"
+    }
+  ],
+  "formatNote": "Warsztaty wypracowane na bazie 25-letniej pracy reżyserskiej, aktorskiej i pedagogicznej Grażyny Kaznowskiej — założycielki teatrów TOM-90 Orelec, Teatru Formy PARRA i Teatru w Drodze AGRADA.",
+  "audiences": [
+    "uczniów gimnazjów, szkół średnich i uczelni",
+    "pedagogów, terapeutów i nauczycieli",
+    "oferta 35+ lub 50+",
+    "skazanych w zakładach karnych i ośrodkach kuratorskich",
+    "młodych teatrów offowych",
+    "ludzi biznesu",
+    "osób zagrożonych dysfunkcjami zdrowotnymi i społecznymi"
+  ],
+  "programItems": [
+    "Trening kreacji osobistej, autoprezentacji, integracji i reintegracji",
+    "Otwarcie na samego siebie i drugiego człowieka",
+    "Stymulacja procesów twórczego myślenia",
+    "Nauka koncentracji i relaksacji",
+    "Trening wchodzenia w różne role społeczne",
+    "Ruch i mowa ciała jako stymulator procesów życiowych",
+    "Odwaga, emocja i wyobraźnia sceniczna — przydatne nie tylko na scenie",
+    "Drama, psycho i socjodrama",
+    "Impostacja głosu i dykcja wyznacznikiem klasy człowieka",
+    "Warsztat bilansu osobistego",
+    "Negocjacje i ich celowość",
+    "Nauka samoakceptacji i świadomości wyborów",
+    "Rozwijanie umiejętności radzenia sobie ze stresem",
+    "Improwizacje sceniczne",
+    "Zabawa w teatr jako element pedagogiki"
+  ],
+  "artTherapy": {
+    "title": "Art Terapia w Bieszczadach",
+    "description": "Tygodniowy warsztat przeprowadzony w Domu Twórczym LE-GRAŻ w Bóbrce k/Soliny.",
+    "website": "www.legraz.eu"
+  },
+  "contact": {
+    "label": "Kontakt w sprawie warsztatów",
+    "emails": [
+      "agradaart@gmail.com",
+      "grazkakaznowska@gmail.com"
+    ],
+    "phone": "608 746 552"
+  }
 }

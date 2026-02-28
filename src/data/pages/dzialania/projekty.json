@@ -1,45 +1,64 @@
 {
-  "title": "PROJEKT OGIEŃ AGRADY-  2014/2015",
-  "paragraphs": [
-    "SZANOWNI PAŃSTWO!",
-    "Uprzejmie informujemy że projektOGIEŃ AGRADY zakończony został w maju 2015 r.",
-    "Wszystkim uczestnikom i prowadzącymSKŁADAMY WYRAZY SERDECZNEGO PODZIĘKOWANIA",
-    "Wnieśliście w nasz teatr SIEBIE, swoją energie, a MY zdobyliśmy kolejne bardzo ciekaweDOŚWIADCZENIA!",
-    "STUKROTNE DZIĘKI!!!",
-    "słów kilka o projekcie…",
-    "To  projektTeatru w Drodze AGRADArealizowany w pięciu środowiskach w kraju, sięgający swoimi korzeniami   STAJNI AGRADY",
-    "Ale nic nie rodzi się w życiu bez potrzeby, z wszystkiego trzeba czerpać dobrą energię, dlatego też  z niej, po transformacji,  zaczął  tlić sięOGIEŃ AGRADY, by dziś rozbłysnąć swym blaskiem wWarszawie, Krakowie , Wrocławiu , Giżycku i Krośnie",
-    "Współrealizowany z pięcioma miejscami twórczymi, którym aktywność mieszkańców, budowanie ich postawy twórczej, uczestnictwo w tzw.  kulturze wyższej, czy budowanie tolerancji, postaw społecznych i asertywności, nie jest obce, a wręcz przeciwnie jest ich priorytetem.",
-    "Głowna charakterystyką projektu będzie różnorodność a jednocześnie indywidualność poszczególnych środowisk, co wynika zniezależnych  specjalistów, artystów i fachowców zaproszonych do współpracy.",
-    "WARSZAWA –WOŁOMIN- LIFE ART STUDIO ul. Wołomińska 3a",
-    "ULEPIENI TEATREM – warsztaty rozwoju osobistego przez teatr",
-    "prowadzone przez Marzenę Niedopad- psychologa i aktorkę offową oraz Grażynę Kaznowską- reżysera, aktorkę  teatralną i pedagoga",
-    "W Wołominie jesteśmy: 12 paździenika, 14 grudnia 2014r., 15 lutego 2015r. i 12 kwietnia 2015r.",
-    "GIŻYCKO- CAFFE CREMA- Pasaż Portowy ul. Żeglarska 7",
-    "FILM CZY TEATR- DIABEŁ  TKWI W SZCZEGÓŁACH- warsztaty filmowo-teatralne",
-    "W Giżycku działamy :11 października, 13 grudnia 2014, 14 lutego i 11 kwietnia 2015r.",
-    "WROCŁAW – szczegóły wkrótce",
-    "BREAKDANCEM, FREERUM I GRAFITTI  PO TEATRZE–warsztaty ruchowo-plastyczno-teatralne",
-    "prowadzone przez Iwo Sobusiak- tancerza breakdance, aktora offowego i Grażynę Kaznowską (j.w.)",
-    "We Wrocławiu spotykamy się: 9 listopada 2014, 11 stycznia 2015, 8 marca, 10 maja 2015r.",
-    "KRAKÓW- Galeria Onamato – Rynek ul. Bracka 7",
-    "WYŚPIEWAĆ I WYGRAĆ TEATR–warsztaty śpiewaczo-muzyczno-teatralne",
-    "prowadzone przez Susannę Jarę – Małecką- wokalistkę  oraz Grażynę Kaznowską (j.w.)",
-    "W Krakowie gościmy  : 5 października,7 grudzień 2014, 8 luty 2015, 5 kwiecień 2015",
-    "KROSNO (miejsce i szczegółowe terminy  wkrótce)",
-    "SCENA LIDERA-TEATR PRZYWÓDZTWA-warsztaty lidersko-teatralne",
-    "Prowadzone przez Irenę Powroźnik- certyfikowanego lidera komunikacji społecznej i Grażynę Kaznowską (j.w.)",
-    "Założeniem projektu są kilkugodzinne ( 4 h) spotkania warsztatowe z ludźmi w wieku 18 (16 )  lat i w nieskończoność, chcących  wyjść z domu, przeżyć coś niepowtarzalnego, rozwinąć swe umiejętności  jak też  wzbogacić swe wnętrze, pobyć i popracować w różnorodności oraz  wieczornie uczestniczyć w nietuzinkowym wydarzeniu artystycznym jakim są małe formy teatralne  Teatru AGRADA i  pokazy indywidualne prowadzących warsztaty.",
-    "Spotkania planowane są  co dwa miesiące w określonym z góry dniu weekendu. I tak:",
-    "Warszawa-Wołomin,  Kraków i Giżycko:październik, grudzień, luty, kwiecień:",
-    "Wołomin – zawsze  druga niedziela miesiąca,",
-    "Giżycko-  zawsze druga sobota miesiąca",
-    "Kraków- zawsze  pierwsza niedziela miesiąca",
-    "Wrocław i Krosno   – listopad, styczeń, marzec, maj",
-    "Wrocław- zawsze druga  niedziela miesiąca",
-    "Krosno- termin  wkrótce",
-    "UWAGA!",
-    "Każde ze spotkań w danym środowisku będzie inne, aby umożliwić wszystkim chętnym uczestniczenie we wszystkich czterech spotkaniach, ale uczestnictwo tylko  w wybranym nie jest niemożliwe. A każde z  czterech  spotkań zakończony zostanie  innym wieczorem artystycznym.",
-    "Grażyna Kaznowska  Teatr w Drodze AGRADA"
+  "title": "Projekt Ogień Agrady",
+  "subtitle": "2014/2015",
+  "statusNote": "Projekt zakończony w maju 2015 r. Wszystkim uczestnikom i prowadzącym składamy wyrazy serdecznego podziękowania.",
+  "intro": "Projekt Teatru w Drodze AGRADA realizowany w pięciu środowiskach w kraju, sięgający swoimi korzeniami STAJNI AGRADY. Z dobrej energii po transformacji zaczął tlić się OGIEŃ AGRADY, by dziś rozbłysnąć swym blaskiem w Warszawie, Krakowie, Wrocławiu, Giżycku i Krośnie.",
+  "formatNote": "Kilkugodzinne (4 h) spotkania warsztatowe z ludźmi w wieku 18 lat i starszymi. Każde ze spotkań kończy się wieczorem artystycznym z udziałem Teatru AGRADA i prowadzących warsztaty.",
+  "locations": [
+    {
+      "city": "Warszawa — Wołomin",
+      "venue": "Life Art Studio, ul. Wołomińska 3a",
+      "workshop": "ULEPIENI TEATREM — warsztaty rozwoju osobistego przez teatr",
+      "instructors": "Marzena Niedopad (psycholog, aktorka offowa) i Grażyna Kaznowska (reżyser, aktorka, pedagog)",
+      "dates": [
+        "12.10.2014",
+        "14.12.2014",
+        "15.02.2015",
+        "12.04.2015"
+      ]
+    },
+    {
+      "city": "Giżycko",
+      "venue": "Caffe Crema, Pasaż Portowy, ul. Żeglarska 7",
+      "workshop": "FILM CZY TEATR — DIABEŁ TKWI W SZCZEGÓŁACH — warsztaty filmowo-teatralne",
+      "instructors": "",
+      "dates": [
+        "11.10.2014",
+        "13.12.2014",
+        "14.02.2015",
+        "11.04.2015"
+      ]
+    },
+    {
+      "city": "Wrocław",
+      "venue": "",
+      "workshop": "BREAKDANCEM, FREERUM I GRAFFITI PO TEATRZE — warsztaty ruchowo-plastyczno-teatralne",
+      "instructors": "Iwo Sobusiak (tancerz breakdance, aktor offowy) i Grażyna Kaznowska",
+      "dates": [
+        "09.11.2014",
+        "11.01.2015",
+        "08.03.2015",
+        "10.05.2015"
+      ]
+    },
+    {
+      "city": "Kraków",
+      "venue": "Galeria Onamato, Rynek, ul. Bracka 7",
+      "workshop": "WYŚPIEWAĆ I WYGRAĆ TEATR — warsztaty śpiewaczo-muzyczno-teatralne",
+      "instructors": "Susanna Jara-Małecka (wokalistka) i Grażyna Kaznowska",
+      "dates": [
+        "05.10.2014",
+        "07.12.2014",
+        "08.02.2015",
+        "05.04.2015"
+      ]
+    },
+    {
+      "city": "Krosno",
+      "venue": "",
+      "workshop": "SCENA LIDERA — TEATR PRZYWÓDZTWA — warsztaty lidersko-teatralne",
+      "instructors": "Irena Powroźnik (certyfikowany lider komunikacji społecznej) i Grażyna Kaznowska",
+      "dates": []
+    }
   ]
 }

@@ -62,17 +62,9 @@ export default function SliderSlide({
           <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-snug mb-4">
             {title}
           </h2>
-          <p className="text-secondary text-sm leading-relaxed mb-8">
+          <p className="text-secondary text-sm leading-relaxed">
             {description}
           </p>
-          {cta && (
-            <a
-              href={cta.href}
-              className="inline-block w-fit border border-accent text-accent px-5 py-2 text-xs tracking-widest uppercase hover:bg-accent hover:text-white transition-colors duration-200"
-            >
-              {cta.label}
-            </a>
-          )}
         </div>
       </div>
 
@@ -91,17 +83,9 @@ export default function SliderSlide({
           <h2 className="text-base font-bold text-foreground leading-snug mb-1.5">
             {title}
           </h2>
-          <p className="text-secondary text-[11px] leading-relaxed mb-2.5 line-clamp-2">
+          <p className="text-secondary text-[11px] leading-relaxed line-clamp-2">
             {description}
           </p>
-          {cta && (
-            <a
-              href={cta.href}
-              className="inline-block w-fit border border-accent text-accent px-4 py-1.5 text-[10px] tracking-widest uppercase hover:bg-accent hover:text-white transition-colors duration-200"
-            >
-              {cta.label}
-            </a>
-          )}
         </div>
       </div>
     </>

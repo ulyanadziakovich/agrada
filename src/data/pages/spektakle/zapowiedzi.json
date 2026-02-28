@@ -1,9 +1,22 @@
 {
   "title": "Zapowiedzi",
-  "paragraphs": [
-    "DROGIE KOBIETY!",
-    "Końcówką 2020 roku ruszył duży projekt „Kierunek- kobieta” stworzony przez Grażynę Kaznowską i Irenę Powroźnik.",
-    "Szczegóły projektu na stronie https://www.kierunek-kobieta.pl.",
-    "ZAPRASZAMY DO ZAPOZNANIA SIĘ I WSPÓŁPRACY"
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DROGIE KOBIETY!"
+    },
+    {
+      "type": "prose",
+      "text": "Końcówką 2020 roku ruszył duży projekt „Kierunek—kobieta” stworzony przez Grażynę Kaznowską i Irenę Powroźnik."
+    },
+    {
+      "type": "link",
+      "label": "www.kierunek-kobieta.pl",
+      "url": "https://www.kierunek-kobieta.pl"
+    },
+    {
+      "type": "cta",
+      "text": "ZAPRASZAMY DO ZAPOZNANIA SIĘ I WSPÓŁPRACY"
+    }
   ]
 }

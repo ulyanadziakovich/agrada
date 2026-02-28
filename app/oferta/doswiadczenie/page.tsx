@@ -1,12 +1,12 @@
 import data from "@/src/data/pages/oferta/doswiadczenie.json";
 import PageHero from "@/src/components/layout/PageHero";
-import ContentPage from "@/src/components/layout/ContentPage";
+import DoswiadczenieSection from "@/src/components/oferta/DoswiadczenieSection";
 
 export default function OfertaDoswiadczeniePage() {
   return (
     <>
       <PageHero title={data.title} />
-      <ContentPage paragraphs={data.paragraphs} />
+      <DoswiadczenieSection workshops={data.workshops} />
     </>
   );
 }

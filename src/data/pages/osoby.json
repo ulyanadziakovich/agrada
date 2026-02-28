@@ -1,8 +1,45 @@
 {
   "title": "Artyści",
-  "paragraphs": [
-    "www. grazyna-kaznowska.cba.pl",
-    "www.susanna.com.pl",
-    "www.irenapowroznik.pl"
+  "artists": [
+    {
+      "name": "GRAŻYNA KAZNOWSKA",
+      "bio": "Pomysłodawca i założycielka Teatru w Drodze AGRADA, Teatru Formy PARRA i Teatru TOM-90 ORELEC. Absolwentka Państwowej Wyższej Szkoły Teatralnej Kraków Wydz. Zam. Wrocław na kierunku Reżyseria Teatrów Dzieci i Młodzieży, Pedagog Kulturalno-Oświatowy i Kulturoznawstwa, absolwentka Międzynarodowej Szkoły Liderów „Leadership Enhancement Program”, reżyser, aktor i pedagog z 25 letnim stażem artystycznym. Laureatka głównej nagrody „SREBRNA NIKE” w dziedzinie SZTUKA przyznanej za upowszechnianie teatru i edukacji teatralnej. Autorka i reżyser ponad 60 spektakli teatralnych, 40 artystycznych projektów krajowych i zagranicznych jak też wielu indywidualnych akcji pomocowych.",
+      "website": "www.grazyna-kaznowska.cba.pl"
+    },
+    {
+      "name": "MARIANNA JARA",
+      "role": "Siłaczka o anielskim głosie",
+      "bio": "„Gdyby Marianna Jara mieszkała w Krakowie lub w Warszawie byłaby jednym z najbardziej znanych artystów w Polsce. Gdyby Marianna Jara poświęciła się własnej karierze artystycznej, wszystkie najlepsze sceny świata byłyby dla niej otwarte. Gdyby Marianna Jara mniej myślała o losie innych, a więcej o rozwoju własnego wokalnego talentu, wtedy cały świat leżałby u jej nóg.” (H. Nicpoń) — Absolwentka Wyższej Szkoły Muzycznej w Tarnopolu. Założycielka zespołu „Widymo”, dyrygentka diecezjalnego chóru „Irmos”, aktorka Teatru w Drodze AGRADA, sanoczanka ukraińskiego pochodzenia, wspaniała organizatorka, kreatorka różnych przestrzeni artystycznych, muzykolog, teolog, oddany przyjaciel."
+    },
+    {
+      "name": "MAŁGORZATA RYDLEWSKA",
+      "role": "Tancerka i choreograf",
+      "bio": "Współwłaściciel Life Art Studio. Tancerz, choreograf, instruktor tańca i Pole Dance, instruktor Improwizacji Ruchowej i Symboliki Ciała Detlefa Kapperta, terapeuta tańcem Life/Art Process metodą Anny Halprin. Jako choreograf na stałe współpracuje z kilkoma off-owymi teatrami na terenie kraju. Jako instruktor stwarza swoim uczniom przestrzeń do odnalezienia własnego, indywidualnego ruchu i własnej emocji z niego płynącej — Uczeń jest nie tylko naśladowcą, ale przede wszystkim Kreatorem własnej unikalnej jakości."
+    },
+    {
+      "name": "ERYK SENDECKI",
+      "role": "Kompozytor teatru AGRADA",
+      "bio": "„Urodziłem się 17 listopada 1990 w Gorlicach. Moja przygoda z muzyką zaczęła się w wieku 17 lat. Od tamtego momentu nieustannie realizowałem swoje marzenie by zostać kompozytorem muzyki filmowej i producentem muzyki trance. W wieku 22 lat podpisałem pierwszy kontrakt z niewielką niemiecką wytwórnią płytową b-sonic, a dwa lata później z największymi wytwórniami muzyki trance na świecie. Moje utwory to gatunek uplitfing i orchestral trance, łączące muzykę elektroniczną z muzyką symfoniczną. Jestem samoukiem — sam uczyłem się podstaw kompozycji. Mam nadzieję, że moja muzyka pozwoli Wam zrozumieć to, czego nie da się opisać słowem.”"
+    },
+    {
+      "name": "SUSANNA",
+      "bio": "Śpiewa w wielu językach, gra i tworzy od dziecka. Była członkinią wielu zespołów, chórów i inicjatyw muzycznych. Ma na koncie ponad pół tysiąca koncertów, festiwali i przeglądów w Polsce i za granicą. Wzięła udział w nagraniach kilkunastu płyt innych artystów. W 2013 roku wydała swój debiutancki album „Wesna, wesnoju”, na którym znalazły się jej utwory autorskie oraz własne opracowania ukraińskich i łemkowskich pieśni tradycyjnych.",
+      "website": "www.susanna.com.pl"
+    },
+    {
+      "name": "IRENA POWROŹNIK",
+      "bio": "Absolwentka Uniwersytetu Jagiellońskiego o specjalności psychologia w zarządzaniu oraz Uniwersytetu Marii Curie-Skłodowskiej na kierunkach animator i menedżer kultury oraz psychologia komunikacji społecznej. Teatralne kroki rozpoczęła w Teatrze Formy PARRA. Na co dzień trener z zakresu animacji kultury, edukacji pozaformalnej i psychologii społecznej. Realizuje projekty łączące edukację ze sztuką, chętnie mierzy się z nowymi wyzwaniami. Swoje marzenia zamienia w cele.",
+      "website": "www.irenapowroznik.pl"
+    },
+    {
+      "name": "IWO SOBUSIAK",
+      "role": "Tancerz i aktor",
+      "bio": "Tancerz bboyingu oraz elementów hip hopu, pasjonat sportów ekstremalnych — parkour, freeruning i akrobatyka. Aktor Teatru Formy PARRA, asystent reżysera w spektaklu METAMORFOZY Teatru w Drodze AGRADA. Młody lider chętnie dzielący się swymi tanecznymi pasjami z rówieśnikami i dzieciakami z podwórka. Kreatywny, otwarty na ludzi i twórcze życie."
+    },
+    {
+      "name": "JAKUB RYDLEWSKI",
+      "role": "Dziennikarz i fotograf",
+      "bio": "Partner sceniczny w klipie rozpoczynającym spektakl „bezGRZECH”, dziennikarz, fotograf i animator kultury."
+    }
   ]
 }
