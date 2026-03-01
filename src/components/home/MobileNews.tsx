@@ -13,7 +13,7 @@ interface MobileNewsProps {
 
 export default function MobileNews({ items }: MobileNewsProps) {
   return (
-    <section className="md:hidden">
+    <section>
       <div className="flex items-center justify-between px-5 pt-6 pb-3">
         <p className="text-[10px] tracking-[0.3em] uppercase text-accent-gold font-medium">
           Aktualności

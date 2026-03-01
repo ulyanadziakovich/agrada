@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/src/components/layout/Header";
+import HeroSlider from "@/src/components/home/HeroSlider";
 import navigationData from "@/src/data/navigation.json";
+import homeData from "@/src/data/pages/home.json";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +31,11 @@ const logo = {
   tagline: "teatr w drodze",
 };
 
+const slides = homeData.hero.slides.map((s) => ({
+  ...s,
+  layout: s.layout as "image" | "content",
+}));
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -38,6 +45,11 @@ export default function RootLayout({
     <html lang="pl">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header logo={logo} nav={navigationData.nav} />
+        <HeroSlider
+          slides={slides}
+          autoplay={homeData.hero.autoplay}
+          interval={homeData.hero.interval}
+        />
         {children}
       </body>
     </html>
