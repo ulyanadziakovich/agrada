@@ -74,18 +74,6 @@ body {
   color: color-mix(in srgb, var(--foreground) 82%, transparent);
 }
 
-/* Czerwone tło sekcji treści na podstronach */
-main.animate-fade-in {
-  background-color: var(--accent);
-  --border: #6b1020;
-  --surface: #1a0008;
-  padding-top: 0.75rem;
-}
-
-/* Ciemne tło pod tekstem — treść czytelna na czerwonym obramowaniu */
-main.animate-fade-in > div {
-  background: linear-gradient(to bottom, #1a0008 0%, #080808 120px);
-}
 
 /* Animacja wejścia strony */
 @keyframes fade-in {

@@ -70,7 +70,7 @@ export default function NavBar({ items, mobileOnly = false }: NavBarProps) {
           <div
             className="fixed inset-0 z-50 bg-background/60 backdrop-blur-sm transition-opacity duration-300"
             style={{ opacity: visible ? 1 : 0 }}
-            onClick={closeMenu}
+            onClick={() => setMobileOpen(false)}
           />
         )}
 
@@ -82,14 +82,14 @@ export default function NavBar({ items, mobileOnly = false }: NavBarProps) {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-border">
-              <Link href="/" onClick={closeMenu} className="flex flex-col leading-none">
+              <Link href="/" onClick={() => setMobileOpen(false)} className="flex flex-col leading-none">
                 <span className="text-xl font-bold tracking-wider text-foreground">AGRADA</span>
                 <span className="text-[8px] tracking-[0.3em] uppercase text-accent-gold mt-0.5">
                   Teatr w Drodze
                 </span>
               </Link>
               <button
-                onClick={closeMenu}
+                onClick={() => setMobileOpen(false)}
                 aria-label="Zamknij menu"
                 className="w-8 h-8 flex items-center justify-center text-foreground/60 hover:text-foreground transition-colors"
               >
@@ -108,7 +108,7 @@ export default function NavBar({ items, mobileOnly = false }: NavBarProps) {
                   <div key={item.id}>
                     <Link
                       href={item.slug}
-                      onClick={closeMenu}
+                      onClick={() => setMobileOpen(false)}
                       className={`block py-2.5 text-[11px] tracking-[0.25em] uppercase font-medium transition-colors duration-200 ${
                         isActive ? "text-accent-gold" : "text-foreground hover:text-accent-gold"
                       }`}
@@ -123,7 +123,7 @@ export default function NavBar({ items, mobileOnly = false }: NavBarProps) {
                             <li key={child.id}>
                               <Link
                                 href={child.slug}
-                                onClick={closeMenu}
+                                onClick={() => setMobileOpen(false)}
                                 className={`flex items-center gap-2.5 py-1.5 pl-3 text-[11px] transition-colors duration-200 ${
                                   childActive
                                     ? "text-foreground"

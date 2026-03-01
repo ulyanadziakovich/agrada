@@ -155,7 +155,7 @@ export default function HeroSlider({
             aria-label={`Slajd ${i + 1}`}
             aria-current={i === activeIndex ? "true" : undefined}
             className={`hidden md:block w-1.5 h-1.5 rounded-full transition-all duration-300 ${
-              i === activeIndex ? "bg-accent scale-125" : "bg-white/30 hover:bg-white/60"
+              i === activeIndex ? "bg-accent-gold scale-125" : "bg-white/30 hover:bg-white/60"
             }`}
           />
         ))}
